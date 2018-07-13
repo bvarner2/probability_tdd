@@ -1,8 +1,6 @@
 from src.coin import Coin
 from pytest import approx
 
-
-
 def test_coin():
     c = Coin()
     assert isinstance(c, Coin)
@@ -19,4 +17,4 @@ def test_fair_coin():
         outcomes.append(c.flip())
     assert (outcomes.count('H') / 100_000 ) == approx(0.50, rel=1e-2)
 
-    
+

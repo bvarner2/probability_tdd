@@ -1,5 +1,7 @@
 [
   "test/test_coin.py::test_coin",
   "test/test_coin.py::test_flip",
-  "test/test_coin.py::test_fair_coin"
+  "test/test_coin.py::test_fair_coin",
+  "test/test_experiment.py::test_p_2_heads",
+  "test/test_experiment.py::test_p_pattern"
 ]
